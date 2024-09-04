@@ -31,12 +31,11 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Diseño Web",
+  "Experiencia de Usuario",
+  "Machine Learning",
+  "Aplicaciones Web",
+  "Diseño Gráfico",
 ];
 
 /**
@@ -60,7 +59,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre mí</h2>
         <p className="large">{description}</p>
         <hr />
         <ul

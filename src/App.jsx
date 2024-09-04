@@ -25,10 +25,10 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Agustín Martin",
-  title: "Web Designer & Content Creator",
+  title: "Desarrollador web y Especialista en Machine Learning",
   email: "contacto@agusmartin.me",
-  gitHub: "microsoft",
-  instagram: "microsoft",
+  gitHub: "inkinvissible",
+  instagram: "agus.martinc",
   linkedIn: "satyanadella",
   medium: "",
   twitter: "microsoft",
