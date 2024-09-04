@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Desarrollo web de Empresa de Repuestos de autos",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Un sitio web responsive y optimizado con SEO para poder llegar a más clientes y dar a conocer la marca.",
+    url: "https://siguenzarepuestos.com.ar",
   },
   {
     title: "Web Development for Beginners",
