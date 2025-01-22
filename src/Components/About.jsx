@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Soy un estudiante en la Universidad Siglo 21 de la carrera Inteligencia Artificial y Robótica y me gustaría profundizar más allá.";
+  "Soy un estudiante en la Universidad Siglo 21 de la carrera Inteligencia Artificial y Robótica con conocimientos en desarrollo web fullstack y experiencia de usuario. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,6 +36,10 @@ const skillsList = [
   "Machine Learning",
   "Aplicaciones Web",
   "Diseño Gráfico",
+  "Desarrollo Frontend",
+  "Desarrollo Backend",
+  "GraphQL",
+  "MongoDB",
 ];
 
 /**
@@ -44,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Me gusta buscar nuevas soluciones a los problemas, sabiendo que no hay una única forma de llegar a la solución. Se pueden encontrar innovadoras y nuevas formas de solucionar un problema que nunca antes se había podido.";
+  "Me gusta buscar nuevas soluciones a los problemas, sabiendo que no hay una única forma de llegar al resultado deseado. Se pueden encontrar innovadoras y nuevas formas de solucionar un problema que no se habían tenido en cuenta anteriormente.";
 
 const About = () => {
   return (
