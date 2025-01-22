@@ -102,12 +102,7 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
-}
+
 
 .container .box {
   border-radius: 10px;
@@ -122,4 +117,79 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* Añadir media queries para dispositivos pequeños */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+
+  .container .box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header, footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header a {
+    margin: 0.5rem 0;
+  }
+
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  section img.background {
+    width: 100vw;
+  }
+
+  /* Ajustes para el componente About */
+  #about .container, 
+  #about .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #about ul {
+    columns: 1;
+    margin: 1rem 0;
+  }
+
+  /* Ajustes para el componente Portfolio */
+  #portfolio .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #portfolio .box {
+    width: 90%;
+  }
+
+  #portfolio img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#portfolio .card {
+  /* Asegura que las tarjetas tengan una altura mínima consistente */
+  min-height: 300px;
+}
+
+/* Ajustes adicionales para pantallas grandes */
+@media (min-width: 768px) {
+  #portfolio .container {
+    max-width: 1200px; /* Limita el ancho máximo del contenedor en pantallas grandes */
+    margin: 0 auto;
+  }
+
+  #portfolio .card {
+    /* Opcional: Ajusta el padding interno de las tarjetas */
+    padding: 20px;
+  }
 }

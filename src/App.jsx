@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 /**
  * This object represents your information. The project is set so that you

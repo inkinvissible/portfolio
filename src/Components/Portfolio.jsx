@@ -19,9 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 /**
  * Project list
@@ -65,26 +63,38 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portafolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
-        <div className="container">
+      <h2 className="text-center">Portafolio</h2>
+      <Container className="pt-5">
+        <Row>
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <p className="small">{project.description}</p>
-            </div>
+            <Col
+              xs={12}
+              sm={6}
+              md={4}
+              lg={3}
+              xl={3}
+              xxl={3} // Modificado de xxl={4} a xxl={3} para mantener consistencia
+              key={project.title}
+              className="mb-4 d-flex"
+            >
+              <Card className="h-100 shadow-sm w-100">
+                <Card.Body className="d-flex flex-column">
+                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Text className="flex-grow-1">{project.description}</Card.Text>
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto btn btn-primary"
+                  >
+                    Ver Proyecto
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
           ))}
-        </div>
-      </div>
+        </Row>
+      </Container>
     </section>
   );
 };

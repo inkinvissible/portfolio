@@ -43,6 +43,7 @@ const Footer = (props) => {
   return (
     <div
       id="footer"
+      className="footer"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -58,6 +59,7 @@ const Footer = (props) => {
           display: "flex",
           justifyContent: "center",
           gap: "2.5rem",
+          flexWrap: "wrap",
         }}
       >
         {email && (

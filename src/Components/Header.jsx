@@ -1,31 +1,21 @@
-/**
- * Header component
- *
- * Top navigation bar for your site. Set to remain visible as the
- * user scrolls so that they can constantly reach any part of your page.
- */
 import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <div
-      style={{
-        position: "fixed",
-        display: "flex",
-        justifyContent: "center",
-        gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
-        padding: "1rem",
-        top: 0,
-        width: "100%",
-        zIndex: 10,
-      }}
-    >
-      <a href="#home">Inicio</a>
-      <a href="#about">Sobre</a>
-      <a href="#portfolio">Portafolio</a>
-      <a href="#footer">Contacto</a>
-    </div>
+    <Navbar bg="light" expand="lg" fixed="top" className="header">
+      <Container>
+        <Navbar.Brand href="#home">AM</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#about">Sobre</Nav.Link>
+            <Nav.Link href="#portfolio">Portafolio</Nav.Link>
+            <Nav.Link href="#footer">Contacto</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
