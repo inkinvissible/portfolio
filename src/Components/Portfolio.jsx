@@ -37,22 +37,28 @@ const projectList = [
     url: "https://siguenzarepuestos.com.ar",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Desarrollo web de Alojamiento en la Patagonia",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Se desarrlló un sitio web para un alojamiento en la Patagonia Argentina, donde se obtenía la disponibilidad y las tarifas dinámicamente para tenerlas siempre actualizadas.",
+    url: "https://ramayonhouse.com.ar",
   },
   {
-    title: "My Resume Site",
+    title: "Desarrollo web de Empresa de Distribución de Repuestos para Autos",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Se creó un sitio web para una empresa de distribución de repuestos para autos, se podía contactar a la empresa y conocer más acerca de ella.",
+    url: "https://discor.com.ar",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Desarrollo web de Alojamiento en Córdoba, Nono",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Se creó un sitio web para un alojamiento en Córdoba, Nono, donde se podía ver los servicios, contactar al alojamiento y ver las fotos del lugar.",
+    url: "https://https://latoscananono.com.ar/",
+  },
+  {
+    title: "Desarrollo de una aplicación de Quiz de tecnología",
+    description:
+      "Se creó una aplicación de quiz de tecnología, donde se podía responder preguntas de tecnología y ver los resultados. (Se encuentra en inglés)",
+    url: "https://inkinvissible.github.io/quiz_proyect/#",
   },
 ];
 

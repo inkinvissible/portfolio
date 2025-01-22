@@ -29,10 +29,10 @@ const siteProps = {
   email: "contacto@agusmartin.me",
   gitHub: "inkinvissible",
   instagram: "agus.martinc",
-  linkedIn: "satyanadella",
+  linkedIn: "agustín-martin-40aa67312",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "-",
+  youTube: "-",
 };
 
 const primaryColor = "#4E567E";
