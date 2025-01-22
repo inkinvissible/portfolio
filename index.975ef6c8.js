@@ -27092,10 +27092,10 @@ var _stylesCss = require("./styles.css");
     email: "contacto@agusmartin.me",
     gitHub: "inkinvissible",
     instagram: "agus.martinc",
-    linkedIn: "satyanadella",
+    linkedIn: "agust\xedn-martin-40aa67312",
     medium: "",
-    twitter: "microsoft",
-    youTube: "Code"
+    twitter: "-",
+    youTube: "-"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
